@@ -36,7 +36,7 @@ fun main(){
     println("El resultado de sumar los numeros pares es: $sumaPares")
     println("El resultado de sumar los numeros impares es: $sumaImpares")
 
-    println("--------------UTILIZANDO WHILE---------------")
+    println("--------------UTILIZANDO BUCLE WHILE---------------")
 
     sumaPares = 0
     sumaImpares = 0
@@ -56,7 +56,7 @@ fun main(){
     println("El resultado de sumar los numeros impares es: $sumaImpares")
 
 
-    println("--------------UTILIZANDO DO WHILE---------------")
+    println("--------------UTILIZANDO BUCLE DO WHILE---------------")
 
     sumaPares = 0
     sumaImpares = 0
