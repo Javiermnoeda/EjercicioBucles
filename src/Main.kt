@@ -17,15 +17,16 @@ fun main(){
     println("El resultado de sumar los numeros pares es: $sumaPares")
     println("El resultado de sumar los numeros impares es: $sumaImpares")
 
-    /*
-      Al hacer la suma en el bucle forEach se sumaban otra vez los numeros al valor de de sumaPares y sumaImpares, en este caso 110 y 100 respectivamente, es decir, el resultado del forEach era 220 y 200.
-      Se que esto es una cutrada como un templo pero es que no se me ocurría otra forma para devolver el valor de las variables a 0
-     */
 
+
+    println("--------------UTILIZANDO BUCLE FOREACH---------------")
+    /*
+    Al hacer la suma en el bucle forEach se sumaban otra vez los numeros al valor de de sumaPares y sumaImpares, en este caso 110 y 100 respectivamente, es decir, el resultado del forEach era 220 y 200.
+    Se que esto es una cutrada como un templo pero es que no se me ocurría otra forma para devolver el valor de las variables a 0
+    */
     sumaPares = 0
     sumaImpares = 0
 
-    println("--------------UTILIZANDO BUCLE FOREACH---------------")
     (inicio..fin).forEach{
         if (it%2==0){
             sumaPares += it
@@ -33,11 +34,11 @@ fun main(){
             sumaImpares += it
         }
     }
+
     println("El resultado de sumar los numeros pares es: $sumaPares")
     println("El resultado de sumar los numeros impares es: $sumaImpares")
 
     println("--------------UTILIZANDO BUCLE WHILE---------------")
-
     sumaPares = 0
     sumaImpares = 0
 
@@ -57,7 +58,6 @@ fun main(){
 
 
     println("--------------UTILIZANDO BUCLE DO WHILE---------------")
-
     sumaPares = 0
     sumaImpares = 0
     i = 0
