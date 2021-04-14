@@ -42,15 +42,15 @@ fun main(){
     sumaPares = 0
     sumaImpares = 0
 
-    var i = 0
+    var i = inicio
 
-    while (i<fin){
-        i++
+    while (i<=fin){
         if (i%2==0){
             sumaPares += i
         } else {
             sumaImpares += i
         }
+        i++
     }
 
     println("El resultado de sumar los numeros pares es: $sumaPares")
@@ -60,17 +60,17 @@ fun main(){
     println("--------------UTILIZANDO BUCLE DO WHILE---------------")
     sumaPares = 0
     sumaImpares = 0
-    i = 0
+    i = inicio
 
     do{
-        i++
+
         if (i%2==0){
             sumaPares += i
         } else {
             sumaImpares += i
         }
-
-    }while (i<fin)
+        i++
+    }while (i<=fin)
 
     println("El resultado de sumar los numeros pares es: $sumaPares")
     println("El resultado de sumar los numeros impares es: $sumaImpares")
